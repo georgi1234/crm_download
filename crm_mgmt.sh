@@ -39,5 +39,3 @@ if [ -s $home/new/report2 ]
     mv ${new_crl2}  ${old_crl2}
   fi
 fi
-
-ll
