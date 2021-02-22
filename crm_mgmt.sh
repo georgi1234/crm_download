@@ -8,7 +8,7 @@ download1=$(wget http://crl.b-trust.org/repository/B-TrustOperationalQCA.crl -O 
 download2=$(wget http://crl.b-trust.org/repository/B-TrustOperationalACA.crl -O $home/new/B-TrustOperationalACA.crl)
 new_crl1=$home/new/B-TrustOperationalQCA.crl
 new_crl2=$home/new/B-TrustOperationalACA.crl
-old_crl1=$hoem/B-TrustOperationalQCA.crl
+old_crl1=$home/B-TrustOperationalQCA.crl
 old_crl2=$home/B-TrustOperationalACA.crl
 #
 
