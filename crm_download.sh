@@ -6,10 +6,10 @@
 export home=/app/ips-node/etc/crl-dir/
 download1=$(wget http://crl.b-trust.org/repository/B-TrustOperationalQCA.crl -O $home/new/B-TrustOperationalQCA.crl)
 download2=$(wget http://crl.b-trust.org/repository/B-TrustOperationalACA.crl -O $home/new/B-TrustOperationalACA.crl)
-new_crl1=/app/ips-node/etc/crl-dir/new/B-TrustOperationalQCA.crl
-new_crl2=/app/ips-node/etc/crl-dir/new/B-TrustOperationalACA.crl
-old_crl1=/app/ips-node/etc/crl-dir/B-TrustOperationalQCA.crl
-old_crl2=/app/ips-node/etc/crl-dir/B-TrustOperationalACA.crl
+new_crl1=$home/new/B-TrustOperationalQCA.crl
+new_crl2=$home/new/B-TrustOperationalACA.crl
+old_crl1=$home/B-TrustOperationalQCA.crl
+old_crl2=$home/B-TrustOperationalACA.crl
 #
 
 
