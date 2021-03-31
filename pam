@@ -1,3 +1,11 @@
+#%PAM-1.0
+
+auth    required        pam_env.so
+auth    sufficient      pam_unix.so     try_first_pass
+auth    required        pam_sss.so      retry=2
+
+
+
 vim common-account-pc
 [ pam ]
 reconnection_retries = 3
