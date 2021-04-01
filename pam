@@ -5,7 +5,7 @@ auth    sufficient      pam_unix.so     try_first_pass
 auth    required        pam_sss.so      retry=2
 
 
-
+sed -i 's/use_first_pass/retry=2/g' /etc/pam.d/common-auth
 vim common-account-pc
 [ pam ]
 reconnection_retries = 3
