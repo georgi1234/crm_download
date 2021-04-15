@@ -12,4 +12,4 @@ reconnection_retries = 3
 offline_credentials_expiration = 2
 offline_failed_login_attempts = 3
 offline_failed_login_delay = 5
-openssl rang -hex 32 > filename.psk
+openssl rand -hex 32 > filename.psk
